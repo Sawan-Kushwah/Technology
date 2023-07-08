@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Bree+Serif&family=Kanit:wght@300&family=Lato:ital@1&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Technology</title>
+</head>
+
+<body>
+    <nav class="navbar background v-height-resp" >
+        <ul class="navlist visible-resp ">
+            <div class="logo"><img src="../static/image/logo.png" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="rightnav visible-resp  ">
+            <input type="text" name="search" id="search" placeholder="Type here">
+            <span class="search"><ion-icon name="search"></ion-icon></span>
+        </div>
+        <div class="burger">
+            <p class="line"></p>
+            <p class="line"></p>
+            <p class="line"></p>
+        </div>
+    </nav>
+    <section class="background first-section" id="home">
+        <div class="main-box" data-aos="zoom-in">
+            <div class="firsthalf" >
+                <p class="big-text">The future of Technology is here</p>
+                <p class="small-text">Taking morden Technology to the next level </p>
+            </div>
+            <button class="buttons" id="btn-1" action="/login" method="post" data-aos="fade-in" data-aos-duration="2000">Login</button>
+            <button class="buttons" id="btn-2" data-aos="fade-in" data-aos-duration="2000">Register</button>
+        </div>
+    </section>
+    <section class="login-page">
+        <div class="wraper">
+            <div class="form-login">
+                <h2>login</h2>
+                <span class="off"><ion-icon name="close"></ion-icon></span>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="email" required >
+                        <label>E-mail</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forget">
+                        <label id="rem"> <input type="checkbox">Remerber me?</label>
+                        <a href="#">Forget password</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="register-page">
+        <div class="wraper-register">
+            <div class="form-login">
+                <h2>Register</h2>
+                <span class="close"><ion-icon name="close"></ion-icon></span>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="person-sharp"></ion-icon>
+                        </span>
+                        <input type="username" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label>E-mail</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+
+                    <div class="remember-forget">
+                        <label id="rem"> <input type="checkbox">I agree to the terms and condition</label>
+
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="section " id="about">
+        <div class="paras" data-aos="fade-right">
+            <p class="sectiontag big-text">What is technology ?</p>
+            <p class="sectionsubtag small-text">Technology is the application of knowledge for achieving practical goals
+                | in a reproducible way.[1] The word technology can also mean the products resulting from such efforts,
+                | including both tangible tools such as utensils or machines, and intangible ones such as software.
+                | Technology plays a critical role in science, engineering, and everyday life..</p>
+            <p class="sectionsubtag small-text">Technological advancements have led to significant changes in society.
+                | The earliest known technology is the stone tool, used during prehistoric times, followed by the
+                control
+                | of fire, which contributed to the growth of the human brain and the development of language during the
+                | Ice Age. .</p>
+        </div>
+        <div class="thumbnail" data-aos="fade-left"><img src="../static/image/img.jpg" alt="Technology" width="350px"></div>
+    </section>
+
+
+    <section class="section reverse ">
+        <div class="paras" data-aos="fade-left">
+            <p class="sectiontag big-text">Mordern technology</p>
+            <p class="sectionsubtag small-text">Starting in the United Kingdom in the 18th century, the discovery of
+                | steam power set off the Industrial Revolution, which saw wide-ranging technological discoveries,
+                | particularly in the areas of agriculture, manufacturing, mining, metallurgy, and transport, and the
+                | widespread application of the factory system. This was followed a century later by the Second
+                Industrial
+                | Revolution which led to rapid scientific discovery, standardization,These technological advances led
+                to significant developments innmedicine, chemistry, physics, and engineering They were accompanied by
+                consequential social change, with
+                | the introduction of skyscrapers accompanied by rapid urbanization. Communication improved with the
+                | invention of the telegraph, the telephone, the radio, and television.</p>
+        </div>
+        <div class="thumbnail" data-aos="fade-right"><img src="../static/image/img2.jpg" alt="Technology" width="350px"></div>
+    </section>
+
+    <section class="section  ">
+        <div class="paras" data-aos="fade-right">
+            <p class="sectiontag big-text">Why technology is important ?</p>
+            <p class="sectionsubtag small-text">Technology has made it possible for people from all walks of life to
+                | have access to different resources. Further, technology is also being used to equip people who need a
+                | certain type of assistance to improve their quality of life and help them avail opportunities that
+                would
+                | otherwise be inaccessible.</p>
+            <p class="sectionsubtag small-text">There is continuous work and progress in the area of technology as it
+                | offers significant benefits. And these benefits have a huge impact on our day-to-day lives and the
+                | operations of countless industries, such as healthcare, automobile, communication, manufacturing, and
+                | business, among others. With that said, here are ways in which technology is both important and
+                | immensely beneficial</p>
+        </div>
+        <div class="thumbnail" data-aos="fade-left"><img src="../static/image/img3.jpg" alt="Technology" width="350px"></div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="text-center" data-aos="zoom-in" >Contact us</h2>
+        <form action="/contact" , method="post">
+            <div class="form">
+                <input type="text" name="name" id="name" placeholder="Enter your name " data-aos="flip-left" data-aos-offset="130">
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone "   data-aos-offset="130" data-aos="flip-left">
+                <input type="text" name="email" id="email" placeholder="Enter your email "   data-aos-offset="130" data-aos="flip-left">
+                <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Type a message..."  data-aos-offset="130" data-aos="flip-left"></textarea>
+            </div>
+            <div class="sub-res">
+                <input type="submit" id="submit" value="Submit"  data-aos-delay="300" data-aos-offset="70" data-aos="fade-in">
+                <input type="reset" id="reset" value="Reset" data-aos="fade-in" data-aos-delay="300" data-aos-offset="70">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p class="text-footer" data-aos="fade-in" data-aos-offset="20">
+            Copyright &copy; 2026 www.techonology.com - All right is reserved
+        </p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../static/javascript/responsive.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        |AOS.init({
+        |   offset:300,
+        |   duration:1500,
+        |})
+    </script>
+
+</body>
+
+</html>
